@@ -3,7 +3,9 @@ import { Fragment } from "react";
 function Page() {
   const test = 3;
 
-  const obj = { a: 1, b: { c: 3, d: 4 } };
+  const obj = {
+    a: 1, b: { c: 3, d: 4 }, e: 3,
+  };
 
   const arrA = [1, 2, [3, 4]];
 
